@@ -41,11 +41,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # You can specify the version you need
+          node-version: '16' # Specify the version you need
       - name: Install Node.js dependencies
         run: |
-          npm install postcss postcss-cli autoprefixer --save-dev
-          npm ci # Only runs if package-lock.json or npm-shrinkwrap.json exists
+          npm install postcss postcss-cli postcss-import autoprefixer --save-dev
+          npm ci # Runs only if package-lock.json or npm-shrinkwrap.json exists
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
