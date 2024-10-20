@@ -188,13 +188,3 @@ Many language servers are open-source and community-driven, allowing for rapid d
 By embracing LSP, developers can leverage the full potential of their coding environments, streamline their workflows, and boost productivity.
 As LSP continues to evolve, it presents an exciting opportunity for developers to explore new integrations and capabilities, further enhancing their coding experience.
 Whether you’re a seasoned programmer or just starting, understanding and utilizing LSP can greatly improve your development journey.
-
-## What's next ?
-
-To deepen your understanding of the Language Server Protocol (LSP) and its applications, consider exploring the following resources:
-
-1. [Edulsp-go](../../projects/rpc-python.md) is designed for beginners who want to learn how Language Server Protocols (LSP) are built using Go.
-It provides a hands-on approach to understanding the core concepts and implementation details, making it an excellent starting point for anyone interested in creating their own language servers.
-
-I recommend this resource to every reader, regardless of which code editor you use.
-It not only walks you through the setup process but also enhances your understanding of how each feature of LSP is configured and utilized.
