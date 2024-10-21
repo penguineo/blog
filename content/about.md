@@ -12,6 +12,7 @@ Welcome to my knowledge base, where I delve into a variety of topics, with a pri
 
 I have a solid background in software development and a deep-seated passion for technology.
 Over the years, I’ve worked on various projects and continuously explored new trends and innovations in the tech world.
+> You can not flex infront of a veteran programmer, programming html for/since 10+ years.
 
 ### What You’ll Find Here
 
