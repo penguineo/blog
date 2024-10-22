@@ -11,8 +11,6 @@ More like our wish list.
 1. [🌟 Ideas](#ideas)
    - [📝 Scratch Pad (Ideas)](#scratch-pad-ideas)
    - [🛠️ Projects](#projects)
-     - [Project 1](#project-1)
-     - [Additional Projects](#additional-projects)
 2. [🎯 Goals](#goals)
    - [✍️ Scratch Pad (Goals)](#scratch-pad-goals)
    - [👤 Personal Goals](#personal-goals)
@@ -30,28 +28,31 @@ More like our wish list.
 
 ### Scratch Pad (Ideas)
 
+#### Considered
+
 1. I should start content creation as a hobby. It'll take quite a bit of time to get started.
     - Start reading documentation live in front of audience on multiple platforms or on twitch and edit and post it on YouTube or might just do on both.
     - Ofcourse I'll write blog also but I'll do it live if I need to do any update or I might not.
 
+#### Dumb
+
 - I want to build a repository that contains all my other repositories of building things from scratch.
 
-<!-- ### Projects -->
+### Projects
 
-<!-- #### Project 1 -->
+#### Go tests
 
-<!-- - **Description**: A brief overview of the project. -->
-<!-- - **Timeline**: [Start Date] - [End Date] -->
-<!-- - **Subcategories**: -->
-<!--   - **Research**: -->
-<!--     - [ ] Read articles -->
-<!--     - [ ] Gather resources -->
-<!--   - **Development**: -->
-<!--     - [ ] Plan the architecture -->
-<!--     - [ ] Write the code -->
-<!--   - **Testing**: -->
-<!--     - [ ] Conduct user testing -->
-<!--     - [ ] Fix bugs -->
+- **Description**: Learning go with the help of gitbook [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
+- **Timeline**: [October 22, 2024] - [ongoing]
+- **Subcategories**:
+  - **Resource**:
+    - [GitBook](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
+    - [GitRepo](https://github.com/subhamc88/learn-go-with-tests)
+  - **Milestones**:
+    - [ ] Go Fundamentals
+    - [ ] Testing Fundamentals
+    - [ ] Build an Application
+  - **Reflection**:
 
 ---
 
@@ -59,17 +60,16 @@ More like our wish list.
 
 ### Scratch Pad (Goals)
 
-<!-- ### Personal Goals -->
+- I want to write blogs everyday but looks like I can't because of academic backlogs that I've been neglecting. So let's start with 3 blogs a week
+<!-- Make a personal goals page for managing personal goals -->
 
-<!-- | Priority | Category       | Goal                                      | Timeline               | Status     | -->
-<!-- |----------|----------------|-------------------------------------------|------------------------|------------| -->
-<!-- | 1        | Self           | **Learn a new programming language**      | [Start Date] - [End Date] | Completed  | -->
+### Professional Goals
 
-<!-- ### Professional Goals -->
+Project Based
 
-<!-- | Priority | Category       | Goal                                       | Timeline               | Status     | -->
-<!-- |----------|----------------|--------------------------------------------|------------------------|------------| -->
-<!-- | 1        | Career         | **Complete a certification**               | [Start Date] - [End Date] | Completed  | -->
+| Priority | Project | Goal | Timeline | Status |
+|----------| ------- |------|----------|--------|
+|1 | [Go tests](#go-tests) | **Hello, World; Integers; Iteration; Arrays and slices; Structs, methods & interfaces** | [October 22, 2024] - [October 27, 2024] | Ongoing  |
 
 ---
 
