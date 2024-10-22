@@ -5,6 +5,7 @@ description = "My personal wish list"
 # 🎉 My Wish List
 
 More like our wish list.
+Made for accountability as well as recording.
 
 ## 📚 Table of Contents
 
@@ -16,8 +17,6 @@ More like our wish list.
    - [👤 Personal Goals](#personal-goals)
    - [💼 Professional Goals](#professional-goals)
 3. [✅ Completions](#completions)
-   - [Completed Goals](#completed-goals)
-   - [Completed Projects](#completed-projects)
 4. [🌀 Miscellaneous](#miscellaneous)
    - [Thoughts](#thoughts)
 5. [📅 Stay Tuned!](#stay-tuned)
@@ -30,13 +29,21 @@ More like our wish list.
 
 #### Considered
 
-1. I should start content creation as a hobby. It'll take quite a bit of time to get started.
-    - Start reading documentation live in front of audience on multiple platforms or on twitch and edit and post it on YouTube or might just do on both.
-    - Ofcourse I'll write blog also but I'll do it live if I need to do any update or I might not.
+ 1. Learn DSA.
 
 #### Dumb
 
 - I want to build a repository that contains all my other repositories of building things from scratch.
+
+- I should start content creation as a hobby. It'll take quite a bit of time to get started.
+  - Start reading documentation live in front of audience on multiple platforms or on twitch and edit and post it on YouTube or might just do on both.
+  - Ofcourse I'll write blog also but I'll do it live if I need to do any update or I might not.
+
+- I want to build my own terminal emulator.
+- I want to build my own kernel.
+- I want to build a code editor.
+- Adding script for fuzzy searching in some of the github commands.
+- Build a compiler.
 
 ### Projects
 
@@ -61,15 +68,26 @@ More like our wish list.
 ### Scratch Pad (Goals)
 
 - I want to write blogs everyday but looks like I can't because of academic backlogs that I've been neglecting. So let's start with 3 blogs a week
-<!-- Make a personal goals page for managing personal goals -->
+
+### Personal Goals
+
+#### Weekly Goals #1
+
+**Timeline**: [October 22, 2024] - [October 27, 2024]
+
+| Priority | Hobbies/Habits | Frequency | Status | Note |
+| -------- | -------------- | --------- | ------ | ----- |
+| 1 | **Blogging** | 3 | ░░░░░░░░░░ 0% |  |
+| 4 | **Typing** | 210 | █░░░░░░░░░ 10% | 30 tests/day. |
+| 3 | **Clean Up** | 2 | █░░░░░░░░░ 0% | Refactoring life. |
 
 ### Professional Goals
 
-Project Based
+Purely project based.
 
 | Priority | Project | Goal | Timeline | Status |
 |----------| ------- |------|----------|--------|
-|1 | [Go tests](#go-tests) | **Hello, World; Integers; Iteration; Arrays and slices; Structs, methods & interfaces** | [October 22, 2024] - [October 27, 2024] | Ongoing  |
+|1 | [Go tests](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [October 22, 2024] - [October 27, 2024] | ██░░░░░░░░ 20% |
 
 ---
 
@@ -81,9 +99,7 @@ Project Based
 
 ## Completions
 
-### Completed Goals
-
-### Completed Projects
+View all of my completed projects and goals [here](https://subhamc88.github.io/completions)
 
 ---
 
