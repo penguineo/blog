@@ -99,7 +99,7 @@ Purely project based.
 
 ## Completions
 
-View all of my completed projects and goals [here](https://subhamc88.github.io/completions)
+View all of my completed projects and goals [here](https://subhamc88.github.io/blog/completions)
 
 ---
 
