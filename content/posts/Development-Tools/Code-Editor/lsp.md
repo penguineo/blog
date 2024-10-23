@@ -1,10 +1,10 @@
 +++
-title = 'How Does Your Code Editor Knows Your Language Better Than You Could?'
-description = 'Explore how your code editor uses features like syntax highlighting, code completion, linting, and debugging to enhance coding efficiency and streamline workflows. These tools boost productivity, letting you focus on problem-solving instead of language details.'
+title = "How Does Your Code Editor Knows Your Language Better Than You Could?"
+description = "Explore how your code editor uses features like syntax highlighting, code completion, linting, and debugging to enhance coding efficiency and streamline workflows. These tools boost productivity, letting you focus on problem-solving instead of language details."
 date = 2024-09-30T20:18:38+05:30
 draft = false
-categories= ['Tech Tutorials', 'Software Development']
-tags= ['LSP', 'Coding', 'Snippets','Tools', 'Productivity']
+categories= ["Development Tools","Code Editor"]
+tags= ["LSP", "Introduction"]
 [cover]
 +++
 
@@ -162,7 +162,7 @@ Many language servers are open-source and community-driven, allowing for rapid d
    +---------------------------+
 ```
 
-> All the requests and reponses are done using JSON-RPC.
+> All the requests and responses are done using JSON-RPC.
 > JSON-RPC (JavaScript Object Notation-Remote Procedure Call
 
 ### Language Server Protocol Overview

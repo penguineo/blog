@@ -42,7 +42,7 @@ Made for accountability as well as recording.
 - I want to build my own terminal emulator.
 - I want to build my own kernel.
 - I want to build a code editor.
-- Adding script for fuzzy searching in some of the github commands.
+- Adding script for fuzzy searching in some of the GitHub commands.
 - Build a compiler.
 
 ### Projects
@@ -105,6 +105,9 @@ View all of my completed projects and goals [here](https://subhamc88.github.io/b
 
 ## Stay Tuned
 
-Thank you for exploring my Wish List! I’m always looking to improve and evolve my aspirations. If you have any suggestions, advice, or ideas on what I should add or change, I’d love to hear from you! Feel free to reach out through the comments or connect with me on social media.
+Thank you for exploring my Wish List!
+I’m always looking to improve and evolve my aspirations.
+If you have any suggestions, advice, or ideas on what I should add or change, I’d love to hear from you!
+Feel free to reach out through the comments or connect with me on social media.
 
 Let’s inspire each other to chase our dreams! ✨

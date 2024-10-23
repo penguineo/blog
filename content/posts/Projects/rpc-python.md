@@ -3,8 +3,8 @@ title = "Your Computer, My Function: The Ultimate Code Swap!"
 description = "Imagine running a function on your computer that someone else wrote. Sound impossible? With RPC, it's a reality! Let's explore this cool tech together!"
 date = 2024-10-04T13:54:33+05:30
 draft = false
-categories = ["Projects","Networking", "Distributed Systems", "Software Development", "Cloud Computing", "Programming Concepts"]
-tags = ["RPC", "Client Server Architecture", "Python", "Remote Function Execution", "Inter-Process Communication"]
+categories = ["Projects"]
+tags = ["RPC", "Python", "Introduction"]
 +++
 
 **Have you ever wondered how your computer executes tasks across different devices ?**
