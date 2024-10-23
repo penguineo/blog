@@ -1,7 +1,6 @@
 @use "sass:math";
 
 @import "../vars";
-@import "../fonts";
 
 // global
 * {
@@ -13,6 +12,7 @@
 body {
   background-color: var(--bg);
   color: var(--fg);
+  font-family: "Fira Code", monospace;
 }
 
 a {
@@ -51,7 +51,6 @@ hr {
   background-color: var(--bg);
   display: flex;
   flex-direction: column;
-  font-family: "Latin Modern Roman", "Times New Roman", serif;
   min-height: 100vh;
   overflow-wrap: break-word;
   padding: 1rem $padding;
