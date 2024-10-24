@@ -80,7 +80,7 @@ Made for accountability as well as recording.
 | Priority | Hobbies/Habits | Frequency | Status | Note |
 | -------- | -------------- | --------- | ------ | ----- |
 | 1 | **Blogging** | 3 | ░░░░░░░░░░ 0% |  |
-| 4 | **Typing** | 210 | ███░░░░░░░ 30% | 30 tests/day. |
+| 4 | **Typing** | 210 | ████░░░░░░ 40% | 30 tests/day. |
 | 3 | **Clean Up** | 2 | █░░░░░░░░░ 0% | Refactoring life. |
 
 ### Professional Goals
