@@ -29,7 +29,8 @@ Made for accountability as well as recording.
 
 #### Considered
 
- 1. Learn DSA.
+ 1. Learn Fuzz testing in go.
+ 2. Learn DSA.
 
 #### Dumb
 
@@ -39,11 +40,12 @@ Made for accountability as well as recording.
   - Start reading documentation live in front of audience on multiple platforms or on twitch and edit and post it on YouTube or might just do on both.
   - Ofcourse I'll write blog also but I'll do it live if I need to do any update or I might not.
 
-- I want to build my own terminal emulator.
-- I want to build my own kernel.
-- I want to build a code editor.
-- Adding script for fuzzy searching in some of the GitHub commands.
+- Build my own terminal emulator.
+- Build my own kernel.
+- Build a code editor.
 - Build a compiler.
+- Build an interpreter.
+- Adding script for fuzzy searching in some of the GitHub commands.
 
 ### Projects
 
@@ -78,7 +80,7 @@ Made for accountability as well as recording.
 | Priority | Hobbies/Habits | Frequency | Status | Note |
 | -------- | -------------- | --------- | ------ | ----- |
 | 1 | **Blogging** | 3 | ░░░░░░░░░░ 0% |  |
-| 4 | **Typing** | 210 | █░░░░░░░░░ 10% | 30 tests/day. |
+| 4 | **Typing** | 210 | ███░░░░░░░ 30% | 30 tests/day. |
 | 3 | **Clean Up** | 2 | █░░░░░░░░░ 0% | Refactoring life. |
 
 ### Professional Goals
