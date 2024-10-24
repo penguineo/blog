@@ -28,9 +28,10 @@ Made for accountability as well as recording.
 ### Scratch Pad (Ideas)
 
 #### Considered
-
- 1. Learn Fuzz testing in go.
- 2. Learn DSA.
+1. Learn Fuzz testing in go.
+2. Learn DSA.
+3. Ansible setup for replicating arch linux setup.
+4. Adding script for fuzzy searching in some of the GitHub commands.
 
 #### Dumb
 
@@ -39,13 +40,13 @@ Made for accountability as well as recording.
 - I should start content creation as a hobby. It'll take quite a bit of time to get started.
   - Start reading documentation live in front of audience on multiple platforms or on twitch and edit and post it on YouTube or might just do on both.
   - Ofcourse I'll write blog also but I'll do it live if I need to do any update or I might not.
+- Need something to add to my hobby list because I'm bored.
 
 - Build my own terminal emulator.
 - Build my own kernel.
 - Build a code editor.
 - Build a compiler.
 - Build an interpreter.
-- Adding script for fuzzy searching in some of the GitHub commands.
 
 ### Projects
 
@@ -81,7 +82,7 @@ Made for accountability as well as recording.
 | -------- | -------------- | --------- | ------ | ----- |
 | 1 | **Blogging** | 3 | ░░░░░░░░░░ 0% |  |
 | 4 | **Typing** | 210 | ████░░░░░░ 40% | 30 tests/day. |
-| 3 | **Clean Up** | 2 | █░░░░░░░░░ 0% | Refactoring life. |
+| 3 | **Clean Up** | 2 | ██████░░░░ 60% | Refactoring life. |
 
 ### Professional Goals
 
