@@ -62,6 +62,8 @@ Made for accountability as well as recording.
     - [ ] Go Fundamentals
     - [ ] Testing Fundamentals
     - [ ] Build an Application
+    - [ ] QnA
+    - [ ] Meta
   - **Reflection**:
 
 ---
@@ -80,9 +82,9 @@ Made for accountability as well as recording.
 
 | Priority | Hobbies/Habits | Frequency | Status | Note |
 | -------- | -------------- | --------- | ------ | ----- |
-| 1 | **Blogging** | 3 | ░░░░░░░░░░ 0% |  |
-| 4 | **Typing** | 210 | ████░░░░░░ 40% | 30 tests/day. |
-| 3 | **Clean Up** | 2 | ██████░░░░ 60% | Refactoring life. |
+| 1 | **Blogging** | 3 | ░░░░░░░░░░  0% |  |
+| 4 | **Typing** | 210 | █░░░░░░░░░ 10% | 30 tests/day. |
+| 3 | **Clean Up** | 2 | ██████████ 100% | Refactoring life. |
 
 ### Professional Goals
 
@@ -90,7 +92,8 @@ Purely project based.
 
 | Priority | Project | Goal | Timeline | Status |
 |----------| ------- |------|----------|--------|
-|1 | [Go tests](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [October 22, 2024] - [October 27, 2024] | ██░░░░░░░░ 20% |
+| 1 | [Go tests fundamentals](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [October 22, 2024] - [November 1, 2024] | ████░░░░░░ 40% | Ongoing |
+| 2 | [Go tests fundamentals](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [October 22, 2024] - [November 1, 2024] | ████░░░░░░ 40% | Ongoing |
 
 ---
 
