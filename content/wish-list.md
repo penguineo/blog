@@ -32,7 +32,6 @@ Made for accountability as well as recording.
 1. Learn Fuzz testing in go.
 2. Learn DSA.
 3. Ansible setup for replicating arch linux setup.
-4. Adding script for fuzzy searching in some of the GitHub commands.
 
 #### Dumb
 
@@ -50,6 +49,30 @@ Made for accountability as well as recording.
 - Build an interpreter.
 
 ### Projects
+
+#### Automation Scripts Collection (Desktop)
+
+- **Description**: Writing bash scripts for desktop automation.
+- **Timeline**: [October 3, 2024] - [ongoing]
+- **Subcategories**:
+  - ** **Resource**:
+    - [Dotfiles](https://github.com/subhamc88/dotfiles)
+  - **Milestones**:
+    - [ ] Migrate to a Dev repository
+    - [ ] Write Readme for scripts only
+    - [ ] Alias
+    - [ ] Keymaps
+      - [x] Tmux
+      - [ ] Git Hub (Repository, Pull Requests, Issues, Actions)
+    - [ ] Package List
+      - [ ] Development
+      - [ ] Writing
+      - [ ] Gaming
+      - [ ] Reading
+    - [ ] Virtual Machine Setup
+    - [ ] Package List
+    - [ ] Backup Setup
+  - **Reflection**:
 
 #### Go tests
 
@@ -73,14 +96,16 @@ Made for accountability as well as recording.
 
 ### Scratch Pad (Goals)
 
-- I want to write blogs everyday but looks like I can't because of academic backlogs that I've been neglecting. So let's start with 3 blogs a week
+- Might right my dev workflow 2024 blog.
+
+### Professional Goals
 
 Purely project based.
 
-| Priority | Project | Goal | Timeline | Status |
-|----------| ------- |------|----------|--------|
-
-    | 1 | [Go tests fundamentals](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [November 6, 2024] - [November 10, 2024] | ████░░░░░░ 40% | Ongoing |
+| Priority | Project                                                              | Timeline                                  | Status        |
+| -------- | -------------------------------------------------------------------- | ----------------------------------------- | ------------- |
+|    1     | [Automation Scripts Collection (Desktop)](#automation-scripts-collection-desktop) | [November 3, 2024] - [Novermber 10, 2024] | █░░░░░░░░░ 10%|
+|    2     | [Go tests fundamentals](#go-tests)                                   | [November 6, 2024] - [December 31, 2024]  | ████░░░░░░ 40%|
 
 ---
 
