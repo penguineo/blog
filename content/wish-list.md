@@ -28,6 +28,7 @@ Made for accountability as well as recording.
 ### Scratch Pad (Ideas)
 
 #### Considered
+
 1. Learn Fuzz testing in go.
 2. Learn DSA.
 3. Ansible setup for replicating arch linux setup.
@@ -74,26 +75,12 @@ Made for accountability as well as recording.
 
 - I want to write blogs everyday but looks like I can't because of academic backlogs that I've been neglecting. So let's start with 3 blogs a week
 
-### Personal Goals
-
-#### Weekly Goals #1
-
-**Timeline**: [October 22, 2024] - [October 27, 2024]
-
-| Priority | Hobbies/Habits | Frequency | Status | Note |
-| -------- | -------------- | --------- | ------ | ----- |
-| 1 | **Blogging** | 3 | ░░░░░░░░░░  0% |  |
-| 4 | **Typing** | 210 | █░░░░░░░░░ 10% | 30 tests/day. |
-| 3 | **Clean Up** | 2 | ██████████ 100% | Refactoring life. |
-
-### Professional Goals
-
 Purely project based.
 
 | Priority | Project | Goal | Timeline | Status |
 |----------| ------- |------|----------|--------|
-| 1 | [Go tests fundamentals](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [October 22, 2024] - [November 1, 2024] | ████░░░░░░ 40% | Ongoing |
-| 2 | [Go tests fundamentals](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [October 22, 2024] - [November 1, 2024] | ████░░░░░░ 40% | Ongoing |
+
+    | 1 | [Go tests fundamentals](#go-tests) | **HelloWorld, Integers, Iteration, Arrays and slices, Structs, Methods , Interfaces** | [November 6, 2024] - [November 10, 2024] | ████░░░░░░ 40% | Ongoing |
 
 ---
 
