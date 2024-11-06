@@ -55,7 +55,7 @@ Made for accountability as well as recording.
 - **Description**: Writing bash scripts for desktop automation.
 - **Timeline**: [October 3, 2024] - [ongoing]
 - **Subcategories**:
-  - ** **Resource**:
+  - **Resource**:
     - [Dotfiles](https://github.com/subhamc88/dotfiles)
   - **Milestones**:
     - [ ] Migrate to a Dev repository
