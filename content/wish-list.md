@@ -61,6 +61,8 @@ Made for accountability as well as recording.
     - [ ] Migrate to a Dev repository
     - [ ] Write Readme for scripts only
     - [ ] Alias
+    - [ ] Project navigation
+        - [x] Repository navigation
     - [ ] Keymaps
       - [x] Tmux
       - [ ] Git Hub (Repository, Pull Requests, Issues, Actions)
