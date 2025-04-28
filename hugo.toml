@@ -1,6 +1,7 @@
 # Basic Settings
 theme = "hugo-texify3"
-paginate = 10
+[pagination]
+pagerSize = 10
 
 # Menu Configuration
 [[menu.main]]
@@ -65,7 +66,15 @@ Follow subhamc88 on <a class=link href=https://github.com/subhamc88 target=_blan
 """
 
 # SEO and Customization
-keywords = ["programming", "tech", "development", "tutorials", "coding","linux", "networking"]
+keywords = [
+	"programming",
+	"tech",
+	"development",
+	"tutorials",
+	"coding",
+	"linux",
+	"networking",
+]
 customCSS = []
 customJS = []
 dateFormat = "January 2, 2006"
