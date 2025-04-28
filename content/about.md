@@ -28,8 +28,8 @@ Thank you for visiting! I hope you find the content here both informative and in
 
 ---
 
-**subhamc88**
+**Penguineo**
 
-- Check out my [GitHub Profile](https://www.github.com/subhamc88) for more on my projects and contributions.
+- Check out my [GitHub Profile](https://www.github.com/penguineo) for more on my projects and contributions.
 - Contact me via [Email](mailto:subham020304@gmail.com) for inquiries, collaborations, or just to say hello.
 - Subscribe to this blog's [rss feeds](https://subhamc88.github.io/blog/index.xml) for updates on the latest blogs. (Copy this link and add it to your rss feed reader.)
