@@ -81,7 +81,7 @@ Places Where RPC is Used
 	- gRPC: A high-performance framework for communication between microservices in different languages.
 	- Apache Kafka: Uses RPC for message coordination across distributed systems and brokers.
 
-## RPC From Scratch
+## RPC implementation
 
 ```markdown
 	 ----------
