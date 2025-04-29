@@ -37,16 +37,6 @@ pre = '''
 '''
 weight = 3
 
-[[menu.main]]
-identifier = "wish-list"
-name = "Wish List"
-url = "/wish-list/"
-pre = '''
-<svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 .587l3.668 7.568 8.332 1.205-6 5.836 1.416 8.265L12 18.896l-7.416 3.894L6 14.6l-6-5.836 8.332-1.205z"/>
-</svg>
-'''
-weight = 4
 # Taxonomies
 [taxonomies]
 categories = "categories"
@@ -55,12 +45,12 @@ tags = "tags"
 # Theme Settings
 [params]
 # Basic Parameters
-title = "subhamc88's blog"
+title = "Penguineo's blog"
 description = "Welcome to my space! Here you'll discover fascinating content and have the opportunity to learn and grow, regardless of your current skill level. Dive in and explore various topics that spark your interest."
 
 # Footer Configuration
 footnote = """
-Follow subhamc88 on <a class=link href=https://github.com/subhamc88 target=_blank rel=noopener>GitHub</a>,
+Follow penguineo on <a class=link href=https://github.com/subhamc88 target=_blank rel=noopener>GitHub</a>,
 <a class=link href=/index.xml>RSS</a> |
 <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
 """
@@ -92,7 +82,7 @@ numberedSubtitles = false
 [params.commentEngine]
 code = """
 <script src="https://giscus.app/client.js"
-        data-repo="subhamc88/blog"
+        data-repo="penguineo/blog"
         data-repo-id="R_kgDOMxm7rQ"
         data-category="General"
         data-category-id="DIC_kwDOMxm7rc4Ciep6"
