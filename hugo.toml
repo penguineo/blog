@@ -6,7 +6,7 @@ pagerSize = 10
 # Menu Configuration
 [[menu.main]]
 identifier = "posts"
-name = "Blog"
+name = "posts"
 url = "/posts/"
 pre = """
 <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -17,7 +17,7 @@ weight = 1
 
 [[menu.main]]
 identifier = "rss"
-name = "RSS"
+name = "rss"
 url = "/index.xml"
 pre = """
 <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@ weight = 2
 
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "about"
 url = "/about/"
 pre = '''
 <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@ description = "Welcome to my space! Here you'll discover fascinating content and
 
 # Footer Configuration
 footnote = """
-Follow penguineo on <a class=link href=https://github.com/subhamc88 target=_blank rel=noopener>GitHub</a>,
+Follow penguineo on <a class=link href=https://github.com/penguineo target=_blank rel=noopener>GitHub</a>,
 <a class=link href=/index.xml>RSS</a> |
 <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
 """
@@ -83,16 +83,17 @@ numberedSubtitles = false
 code = """
 <script src="https://giscus.app/client.js"
         data-repo="penguineo/blog"
-        data-repo-id="R_kgDOMxm7rQ"
+        data-repo-id="R_kgDONC17xg"
         data-category="General"
-        data-category-id="DIC_kwDOMxm7rc4Ciep6"
-        data-mapping="title"
-        data-strict="0"
+        data-category-id="DIC_kwDONC17xs4Cplf5"
+        data-mapping="pathname"
+        data-strict="1"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="noborder_dark"
+        data-theme="gruvbox_dark"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>
