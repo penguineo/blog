@@ -89,7 +89,7 @@ Places Where RPC is Used
 ## RPC implementation
 
 ```mermaid
-graph TD
+flowchart TD
  id1(["Client"])
  id2["Network/Transport"]
  id3(["Server"])
