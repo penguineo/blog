@@ -89,56 +89,18 @@ They act as a medium between the code editor and the programming language, enabl
 
 ## How does the LSP connect to the language server?
 
-```markdown
-+---------------------------+
-| User Action in Code |
-| Editor (Write Code) |
-+------------+--------------+
-|
-v
-+------------+--------------+
-| Code Editor |
-+------------+--------------+
-|
-Send request
-v
-+------------+--------------+
-| LSP |
-+------------+--------------+
-|
-Translate request
-v
-+------------+--------------+
-| Language Server |
-+------------+--------------+
-|
-Process request
-|
-v
-+------------+--------------+
-| Generate response |
-+------------+--------------+
-|
-Send response
-v
-+------------+--------------+
-| LSP |
-+------------+--------------+
-|
-Translate response
-v
-+------------+--------------+
-| Code Editor |
-+------------+--------------+
-|
-Update UI/Editor
-|
-v
-+---------------------------+
-| User sees results in |
-| Code Editor (e.g., |
-| suggestions, errors) |
-+---------------------------+
+```mermaid
+flowchart TD
+id1([Code Editor])
+id2(User Action in Code Editor)
+id3[Send Request]
+id4([LSP])
+id5[Translates Request]
+id6([Language Server])
+id7[Processes Request]
+id1 --> id2 --> id3 --> id4 --> id5
+id5 --> id6 --> id7 --> id3
+id5 --> id1
 ```
 
 > All the requests and responses are done using JSON-RPC.
