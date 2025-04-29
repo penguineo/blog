@@ -3,36 +3,28 @@ title: "How Does Your Code Editor Knows Your Language Better Than You Could?"
 description: "Explore how your code editor uses features like syntax highlighting, code completion, linting, and debugging to enhance coding efficiency and streamline workflows. These tools boost productivity, letting you focus on problem-solving instead of language details."
 date: 2024-09-30T20:18:38+05:30
 draft: false
-categories:
-- Productivity
-- Code Editor
-tags:
-- lsp
+categories: [Productivity, Code Editor]
+tags: [lsp]
 ---
+
 Most of you are using code editors like VSCode or IDEs like PyCharm for coding.
 You might be aware of some of the features provided by these applications, such as:
 
 - **Code Completion**:
-Smart suggestions as you type your code (IntelliSense).
-
+  Smart suggestions as you type your code (IntelliSense).
 - **Syntax Highlighting**:
-Color-coding different elements of your code.
-
+  Color-coding different elements of your code.
 - **Code Formatting**:
-Automatically formats your code based on styling standards (e.g., Prettier).
-
+  Automatically formats your code based on styling standards (e.g., Prettier).
 - **Integrated Debugging**:
-Allows you to set breakpoints and run through your code, making it easier to identify and fix issues in real time.
-
+  Allows you to set breakpoints and run through your code, making it easier to identify and fix issues in real time.
 - **Linting**:
-Automatically detects errors and potential issues in your code, ensuring that you adhere to coding standards and best practices.
-
+  Automatically detects errors and potential issues in your code, ensuring that you adhere to coding standards and best practices.
 - **Code Actions**:
-Provides quick fixes and refactoring suggestions for code issues.
-
+  Provides quick fixes and refactoring suggestions for code issues.
 - **Code Navigation**:
-Quickly jump to function and variable definitions for exploring your code.
-Find references to specific symbols (identifiers) in your codebase.
+  Quickly jump to function and variable definitions for exploring your code.
+  Find references to specific symbols (identifiers) in your codebase.
 
 > **How do you think your code editor provides these features?**
 > Short answer: **LSP (Language Server Protocol)**.
@@ -48,31 +40,25 @@ As a universal standard, enhancements to LSP can improve the functionality and b
 ## Why It's Important for Code Editors and Modern Development
 
 - **Consistency**:
-LSP provides a uniform way for code editors or IDEs to implement language features, making it easier for developers to use different tools without losing functionality.
-
+  LSP provides a uniform way for code editors or IDEs to implement language features, making it easier for developers to use different tools without losing functionality.
 - **Efficiency**:
-LSP separates language-specific features from the editor itself, allowing developers to focus on improving language support without modifying the editor. This leads to faster updates and enhancements.
-
+  LSP separates language-specific features from the editor itself, allowing developers to focus on improving language support without modifying the editor. This leads to faster updates and enhancements.
 - **Enhanced Developer Experience**:
-LSP enables advanced features like intelligent code completion, on-the-fly error detection, and refactoring tools, significantly improving productivity.
-
+  LSP enables advanced features like intelligent code completion, on-the-fly error detection, and refactoring tools, significantly improving productivity.
 - **Ecosystem Growth**:
-LSP fosters an ecosystem where community-developed language servers can easily integrate with popular editors, promoting broader language support and community contributions.
+  LSP fosters an ecosystem where community-developed language servers can easily integrate with popular editors, promoting broader language support and community contributions.
 
 ## But How Does LSP Support Multiple Programming Languages?
 
 - **Language Servers**:
-For each programming language, a separate language server can be developed.
-These servers communicate with the development tools via LSP, providing language-specific features without the need for editor-specific implementations.
-
+  For each programming language, a separate language server can be developed.
+  These servers communicate with the development tools via LSP, providing language-specific features without the need for editor-specific implementations.
 - **Standardized Communication**:
-LSP defines a set of standard messages and requests, allowing any language server to work with any editor that implements LSP.
-
+  LSP defines a set of standard messages and requests, allowing any language server to work with any editor that implements LSP.
 - **Modular Architecture**:
-Developers can create or use existing language servers for the languages they work with, ensuring that features are available regardless of the programming language.
-
+  Developers can create or use existing language servers for the languages they work with, ensuring that features are available regardless of the programming language.
 - **Community Contributions**:
-The open nature of LSP encourages developers to create and share language servers, making it easier to support new or niche programming languages.
+  The open nature of LSP encourages developers to create and share language servers, making it easier to support new or niche programming languages.
 
 > Before learning how a code editor interacts with LSP, we need to understand what language servers are.
 
@@ -84,82 +70,74 @@ They act as a medium between the code editor and the programming language, enabl
 ## What Is the Role of Language Servers in Programming?
 
 - **Feature Provider**:
-Language servers offer essential programming features such as:
-
+  Language servers offer essential programming features such as:
   - **Autocompletion**:
-  Suggesting code completions based on the context.
-
+    Suggesting code completions based on the context.
   - **Syntax Checking**:
-  Identifying errors and warnings in real time as you write code.
-
+    Identifying errors and warnings in real time as you write code.
   - **Code Navigation**:
-  Allowing users to quickly jump to definitions, references, and symbols.
-
+    Allowing users to quickly jump to definitions, references, and symbols.
   - **Refactoring Tools**:
-  Facilitating code transformations like renaming variables or extracting methods.
-
+    Facilitating code transformations like renaming variables or extracting methods.
 - **Separation of Concerns**:
-By separating language features from the editor, it allows for easier updates and maintenance.
-Developers can focus on enhancing language support without modifying the editor itself.
-
+  By separating language features from the editor, it allows for easier updates and maintenance.
+  Developers can focus on enhancing language support without modifying the editor itself.
 - **Consistent User Experience**:
-Language servers ensure that users have a similar experience across different editors by providing a consistent set of features regardless of the tools being used.
-
+  Language servers ensure that users have a similar experience across different editors by providing a consistent set of features regardless of the tools being used.
 - **Community Contributions**:
-Many language servers are open-source and community-driven, allowing for rapid development and support of new programming languages or frameworks.
+  Many language servers are open-source and community-driven, allowing for rapid development and support of new programming languages or frameworks.
 
 ## How does the LSP connect to the language server?
 
 ```markdown
-
-   +---------------------------+
-   |    User Action in Code    |
-|    Editor (Write Code)    |
++---------------------------+
+| User Action in Code |
+| Editor (Write Code) |
 +------------+--------------+
 |
 v
 +------------+--------------+
-|        Code Editor        |
+| Code Editor |
 +------------+--------------+
 |
 Send request
 v
 +------------+--------------+
-|           LSP             |
+| LSP |
 +------------+--------------+
 |
 Translate request
 v
 +------------+--------------+
-|      Language Server      |
+| Language Server |
 +------------+--------------+
 |
 Process request
 |
 v
 +------------+--------------+
-|      Generate response    |
+| Generate response |
 +------------+--------------+
 |
 Send response
 v
 +------------+--------------+
-|           LSP             |
+| LSP |
 +------------+--------------+
 |
 Translate response
 v
 +------------+--------------+
-|        Code Editor        |
+| Code Editor |
 +------------+--------------+
 |
 Update UI/Editor
 |
 v
 +---------------------------+
-|   User sees results in    |
-|     Code Editor (e.g.,    |
-|   suggestions, errors)    |
+| User sees results in |
+| Code Editor (e.g., |
+| suggestions, errors) |
 +---------------------------+
 ```
 
