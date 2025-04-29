@@ -88,32 +88,16 @@ Places Where RPC is Used
 
 ## RPC implementation
 
-```markdown
-	 ----------
-	 | Client |
-	 ----------
-	 |  ^
-	 v  |
-	 ---------------
-	 | Client Stub |
-	 ---------------
-	 |  ^
-	 v  |
-	 ---------------
-	 | Network/    |
-	 | Transport   |
-	 ---------------
-	 |  ^
-	 v  |
-	 ---------------
-	 | Server Stub |
-	 ---------------
-	 |  ^
-	 v  |
-	 -----------
-	 | Server  |
-	 -----------
-````
+```mermaid
+graph TD
+ id1(["Client"])
+ id2["Network/Transport"]
+ id3(["Server"])
+ id1 --> |Client Stub| id2
+ id2 --> |Server Stub| id3
+ id2 --> |Client Stub| id1
+ id3 --> |Server Stub| id2
+```
 
 > For ease of use, let's use **Python**.
 
