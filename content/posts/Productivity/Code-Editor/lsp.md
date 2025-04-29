@@ -1,13 +1,14 @@
-+++
-title = "How Does Your Code Editor Knows Your Language Better Than You Could?"
-description = "Explore how your code editor uses features like syntax highlighting, code completion, linting, and debugging to enhance coding efficiency and streamline workflows. These tools boost productivity, letting you focus on problem-solving instead of language details."
-date = 2024-09-30T20:18:38+05:30
-draft = false
-categories= ["Development Tools","Code Editor"]
-tags= ["LSP", "Introduction"]
-[cover]
-+++
-
+---
+title: "How Does Your Code Editor Knows Your Language Better Than You Could?"
+description: "Explore how your code editor uses features like syntax highlighting, code completion, linting, and debugging to enhance coding efficiency and streamline workflows. These tools boost productivity, letting you focus on problem-solving instead of language details."
+date: 2024-09-30T20:18:38+05:30
+draft: false
+categories:
+- Productivity
+- Code Editor
+tags:
+- lsp
+---
 Most of you are using code editors like VSCode or IDEs like PyCharm for coding.
 You might be aware of some of the features provided by these applications, such as:
 
@@ -113,53 +114,53 @@ Many language servers are open-source and community-driven, allowing for rapid d
 
    +---------------------------+
    |    User Action in Code    |
-   |    Editor (Write Code)    |
-   +------------+--------------+
-                |
-                v
-   +------------+--------------+
-   |        Code Editor        |
-   +------------+--------------+
-                |
-           Send request
-                v
-   +------------+--------------+
-   |           LSP             |
-   +------------+--------------+
-                |
-        Translate request
-                v
-   +------------+--------------+
-   |      Language Server      |
-   +------------+--------------+
-                |
-         Process request
-                |
-                v
-   +------------+--------------+
-   |      Generate response    |
-   +------------+--------------+
-                |
-           Send response
-                v
-   +------------+--------------+
-   |           LSP             |
-   +------------+--------------+
-                |
-        Translate response
-                v
-   +------------+--------------+
-   |        Code Editor        |
-   +------------+--------------+
-                |
-        Update UI/Editor
-                |
-                v
-   +---------------------------+
-   |   User sees results in    |
-   |     Code Editor (e.g.,    |
-   |   suggestions, errors)    |
-   +---------------------------+
+|    Editor (Write Code)    |
++------------+--------------+
+|
+v
++------------+--------------+
+|        Code Editor        |
++------------+--------------+
+|
+Send request
+v
++------------+--------------+
+|           LSP             |
++------------+--------------+
+|
+Translate request
+v
++------------+--------------+
+|      Language Server      |
++------------+--------------+
+|
+Process request
+|
+v
++------------+--------------+
+|      Generate response    |
++------------+--------------+
+|
+Send response
+v
++------------+--------------+
+|           LSP             |
++------------+--------------+
+|
+Translate response
+v
++------------+--------------+
+|        Code Editor        |
++------------+--------------+
+|
+Update UI/Editor
+|
+v
++---------------------------+
+|   User sees results in    |
+|     Code Editor (e.g.,    |
+|   suggestions, errors)    |
++---------------------------+
 ```
 
 > All the requests and responses are done using JSON-RPC.

@@ -1,14 +1,17 @@
-+++
-title = 'Discovering Terminals'
-description = "A Beginner's Guide to What They Are and How They Power Your Computer"
-date = 2024-09-25T07:32:59+05:30
-draft = false
-categories = ["Operating Systems", "Terminals"]
-tags = ["Terminal Emulators","Introduction"]
-[cover]
-image = "images/computer/gnome-terminal-for-linux.png"
-alt = "Gnome terminal"
-+++
+---
+title: "Discovering Terminals"
+description: "A Beginner's Guide to What They Are and How They Power Your Computer"
+date: 2024-09-25T07:32:59+05:30
+draft: false
+categories:
+  - Operating Systems
+  - Terminals
+tags:
+  - terminal emulators
+cover:
+  image: "images/computer/gnome-terminal-for-linux.png"
+  alt: "Gnome terminal"
+---
 
 ## Introduction
 
