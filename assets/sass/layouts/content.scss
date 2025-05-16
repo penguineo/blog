@@ -1,6 +1,6 @@
 @use "sass:math";
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url(https://cdn.xeiaso.net/static/css/iosevka/family.css);
 @import "../vars";
 @import "../syntax";
 
@@ -68,7 +68,7 @@
   code {
     background-color: var(--bg_s);
     border-radius: $radius;
-    font-family: "Fira Code", "Latin Modern Mono", Courier, monospace;
+    font-family: "Iosevka", "Latin Modern Mono", Courier, monospace;
     padding: 0 0.2rem;
   }
 
